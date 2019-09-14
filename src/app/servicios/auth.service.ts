@@ -22,4 +22,11 @@ export class AuthService {
                 });
               }
 
+              logOut() {
+                this.AFauth.auth.signOut().then( auth =>{
+                 // this.router.navigate(['/login'])
+                  this.nav.navigateRoot(['/login']);
+                });
+              }
+
 }
