@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding center text-center >
+
+  
+        <ion-card padding>
+
+      
+
+          <form (ngSubmit)="onSubmitLogin()"> 
+              <ion-item>
+                <ion-label>Usuario &nbsp; &nbsp; &nbsp; :</ion-label>
+                <ion-input type="text"  name="usuario" [(ngModel)]="email"></ion-input> <!-- [(ngModel)]="todo.title"  -->
+              </ion-item>
+              <ion-item>
+                <ion-label>Contraseña&nbsp;:</ion-label>
+                <ion-input  type="password" name="password" [(ngModel)]="password" ></ion-input> <!-- [(ngModel)]="todo.description" -->
+              </ion-item>
+    
+              <ion-button class="buttonProperties" color="primary" type="submit"  >Primary</ion-button>
+             
+            </form>
+    
+       
+      </ion-card>
+
+
+
+</ion-content>
