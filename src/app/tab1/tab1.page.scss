@@ -2,3 +2,41 @@
   max-height: 35vh;
   overflow: hidden;
 }
+
+.container{
+  display: block;
+  background-color: black; 
+}
+
+.container1{
+  display: table;
+  padding: 5px;
+  border-style: dashed;
+  border-color: aqua;
+  width: 100%;
+  
+}
+
+.container2{
+  display: table-cell;
+  width: 45%;
+  height: 150px;
+  border-style: dashed;
+  border-color:red;
+  border-radius: 6%;
+  margin: 10%;
+}
+.container3{
+  display: table-cell;
+  width: 25%;
+  height: 70px;
+  border-style: dashed;
+  border-color:white;
+}
+.container4{
+  display: table-cell;
+  width: 25%;
+  height: 10px;
+  border-style: dashed;
+  border-color:white;
+}
